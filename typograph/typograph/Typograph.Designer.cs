@@ -96,7 +96,7 @@
             this.typeBtn.TabIndex = 2;
             this.typeBtn.Text = "Оттипографировать";
             this.typeBtn.UseVisualStyleBackColor = true;
-            this.typeBtn.Click += new System.EventHandler(this.typeBtn_Click);
+            this.typeBtn.Click += new System.EventHandler(this.TypeBtn_Click);
             // 
             // mainForm
             // 
