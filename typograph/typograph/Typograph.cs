@@ -24,13 +24,23 @@ namespace typograph
                 string result = Regex.Replace(inputText, @"(\p{L})\s+(\p{P})", "$1$2");
                 result = Regex.Replace(result, @"([^\w\s]+)", "$0 ");
                 result = Regex.Replace(result, @"(\w)(-)(\w)", "$1 $2 $3");
-                result = Regex.Replace(result, @"(\w)([({<«])", "$1 $2");
-                result = Regex.Replace(result, @"([)}\]>»])(\w)", "$1 $2");
-                result = Regex.Replace(result, @"(\w)([""‘“])(\w)", "$1 $2 $3");
-                result = Regex.Replace(result, @"(\w)([""’”])(\w)", "$1 $2 $3");
+                result = Regex.Replace(result, @"([({<«])\s*(\w)", "$1$2");
+                result = Regex.Replace(result, @"(\w)([)}\]>»])(\w)", "$1$2 $3");
+                result = Regex.Replace(result, @"([""“])\s*(\w)", " $1$2");
+                result = Regex.Replace(result, @"(\w)([""”])(\w)", "$1$2 $3");
 
                 ///2nd rule
                 result = Regex.Replace(result, @"\s{2,}", " ");
+
+                ///3rd rule
+                result = Regex.Replace(result, "\"(.*?)\"", match =>
+                {
+                    string captured = match.Groups[1].Value;
+                    string firstWord = char.ToUpper(captured[0]) + captured.Substring(1);
+                    return "«" + firstWord + "»";
+                });
+
+
 
                 mainTextBox.Text = result;
             }
