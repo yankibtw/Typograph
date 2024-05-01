@@ -5,7 +5,7 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "typograph", "typograph\typograph.csproj", "{A7CCD908-093E-48FB-AADC-E73F6BBB9A22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestForTypograph", "NUnitTestForTypograph\NUnitTestForTypograph.csproj", "{16FF29D0-513C-4CE5-9BAA-06AF749ADDAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestForTypograph", "TestProject1\NUnitTestForTypograph.csproj", "{32167D99-792E-456A-B701-0E043D1B793D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{A7CCD908-093E-48FB-AADC-E73F6BBB9A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7CCD908-093E-48FB-AADC-E73F6BBB9A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7CCD908-093E-48FB-AADC-E73F6BBB9A22}.Release|Any CPU.Build.0 = Release|Any CPU
-		{16FF29D0-513C-4CE5-9BAA-06AF749ADDAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{16FF29D0-513C-4CE5-9BAA-06AF749ADDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{16FF29D0-513C-4CE5-9BAA-06AF749ADDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{16FF29D0-513C-4CE5-9BAA-06AF749ADDAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32167D99-792E-456A-B701-0E043D1B793D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32167D99-792E-456A-B701-0E043D1B793D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32167D99-792E-456A-B701-0E043D1B793D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32167D99-792E-456A-B701-0E043D1B793D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

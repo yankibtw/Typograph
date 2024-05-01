@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace typograph
@@ -14,15 +13,8 @@ namespace typograph
         public void TypeBtn_Click(object sender, EventArgs e)
         {
             string inputText = mainTextBox.Text;
-            TypographyText(inputText);
-        }
-
-        public void TypographyText(string inputText)
-        {
-            if (!string.IsNullOrEmpty(inputText)) {
-                TextFormatter formatter = new TextFormatter();
-                mainTextBox.Text = formatter.ChangePunctuation(inputText);
-            }
+            TextFormatter formatter = new TextFormatter();
+            mainTextBox.Text = formatter.TypographyText(inputText);
         }
 
         public void InfoToolStripMenuItem_Click(object sender, EventArgs e)
