@@ -20,3 +20,12 @@ C:\Users\ganie\source\repos\TypographHW\typograph\typograph\obj\Debug\typograph.
 C:\Users\ganie\source\repos\TypographHW\typograph\typograph\obj\Debug\typograph.csproj.CoreCompileInputs.cache
 C:\Users\ganie\source\repos\TypographHW\typograph\typograph\obj\Debug\typograph.exe
 C:\Users\ganie\source\repos\TypographHW\typograph\typograph\obj\Debug\typograph.pdb
+C:\Users\ganie\source\repos\TypographHW\typograph\typograph\bin\Debug\nunit.framework.dll
+C:\Users\ganie\source\repos\TypographHW\typograph\typograph\bin\Debug\nunit.framework.legacy.dll
+C:\Users\ganie\source\repos\TypographHW\typograph\typograph\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ganie\source\repos\TypographHW\typograph\typograph\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ganie\source\repos\TypographHW\typograph\typograph\bin\Debug\nunit.framework.xml
+C:\Users\ganie\source\repos\TypographHW\typograph\typograph\bin\Debug\nunit.framework.legacy.xml
+C:\Users\ganie\source\repos\TypographHW\typograph\typograph\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ganie\source\repos\TypographHW\typograph\typograph\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ganie\source\repos\TypographHW\typograph\typograph\obj\Debug\typograph.csproj.CopyComplete
